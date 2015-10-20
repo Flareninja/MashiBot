@@ -4,8 +4,8 @@
 // If you really don't know how to do this... Run `node getserver.js URL`.
 // Fill in the URL of the client where `URL` is.
 // For example: `node getserver.js http://example-server.psim.us/`
-exports.server = 'sim.smogon.com';
-exports.port = 8000;
+exports.server = 'lightningalaxyy66-lightserver2000.rhcloud.com-80.psim.us';
+exports.port = 80;
 
 // This is the server id.
 // To know this one, you should check where the AJAX call 'goes' to when you
@@ -13,16 +13,16 @@ exports.port = 8000;
 // For example, on the Smogon server, it will say somewhere in the URL
 // ~~showdown, meaning that the server id is 'showdown'.
 // If you really don't know how to check this... run the said script above.
-exports.serverid = 'showdown';
+exports.serverid = 'galaxy';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'MashiBot';
-exports.pass = 'mashisawesome';
+exports.nick = 'Hydrogen Bot';
+exports.pass = 'martina';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
-exports.rooms = ['room'];
+exports.rooms = ['lobby'];
 
 // Any private rooms that should be joined.
 // Private rooms will be moderated differently (since /warn doesn't work in them).
@@ -34,7 +34,7 @@ exports.privaterooms = ['privateroom'];
 // Note that using / and ! might be 'dangerous' since these are used in
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
-exports.commandcharacter = '#';
+exports.commandcharacter = '.';
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
@@ -65,7 +65,7 @@ exports.debuglevel = 3;
 
 // Users who can use all commands regardless of their rank. Be very cautious
 // with this, especially on servers other than main.
-exports.excepts = ['yourusername'];
+exports.excepts = ['Flareninja'];
 
 // Whitelisted users are those who the bot will not enforce moderation for.
 exports.whitelist = [];
